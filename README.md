@@ -28,8 +28,6 @@ A custom-designed boost converter steps up the ESP32’s 3.3V input to a control
 
 A logic-level MOSFET switches the high-voltage DC output on and off in precise, configurable pulses. This mimics the functionality of a TENS (Transcutaneous Electrical Nerve Stimulation) unit, which delivers electrical signals to muscles or nerves through surface electrodes.
 
-> In layman’s terms: it sends tiny "zaps" to your skin that make your muscles twitch. By changing the frequency and length of those zaps, you can create different effects—from a light tingling to a strong flex.
-
 ### 3. Firmware Configuration
 
 Stimulation parameters such as:
@@ -62,3 +60,13 @@ Stimulation parameters such as:
 
 ## Repository Structure
 
+---
+
+## Development Notes
+
+This project is developed using **Visual Studio Code** with the **PlatformIO** extension. If you prefer to use the Arduino IDE, you will need to:
+
+1. Navigate to the `src` folder and rename `main.cpp` to `main.ino`.
+2. Ensure you are using an updated version of the **LEDC** library for proper functionality.
+
+---
